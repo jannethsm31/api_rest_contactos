@@ -11,7 +11,6 @@ Para este ejemplo se utilizará el gestor de bases de datos .[SQLite3](https://w
 
 ### 3.1 Tabla: contactos
 
-|No.|Campos|Tipo|Restricciones|Descripción|
 |No.|Campos|Tipo|Restrincciones|Descripción|Tamaño|
 |--|--|--|--|--|--|
 |1|id_contactos|int|PRIMARY KEY|Llave primaria de la tabla|AUTOINCREMENT|
