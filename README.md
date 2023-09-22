@@ -23,7 +23,7 @@ Para este ejemplo se utilizará el gestor de bases de datos .[SQLite3](https://w
 ## 4. Script de SQLite
 
 ```sql
-SELECT 'Script API REST' AS Actividad;
+SELECT 'script APIRest' AS Actividad;
 
 CREATE TABLE IF NOT EXISTS personas(
 id_contactos INTEGER PRIMARY KEY AUTOINCREMENT,
