@@ -12,4 +12,11 @@ Para este ejemplo se utilizará el gestor de bases de datos .[SQLite3](https://w
 ### 3.1 Tabla: contactos
 
 |No.|Campos|Tipo|Restricciones|Descripción|
-|--|--|--|--|-|
+|No.|Campos|Tipo|Restrincciones|Descripción|Tamaño|
+|--|--|--|--|--|--|
+|1|id_contactos|int|PRIMARY KEY|Llave primaria de la tabla|AUTOINCREMENT|
+|2|nombre|varchar|Not Null|Campo que almacena el nombre del contacto|100|
+|3|Apellido Paterno|varchar|Not Null|Campo que almacena el apellido paterno del contacto|50|
+|4|Apellido Materno|varchar|Not Null|Campo que almacena el apellido paterno del contacto|50|
+|5|Email|varchar|Not Null|Campo que almacena el correo electronico del contacto|50|
+|6|Teléfono|varchar|Not Null|Campo que almacena el teléfono del contacto|50|
